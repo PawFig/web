@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitácora</title>
     <link rel="icon" href="img/icono-bitacora.ico">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilos.css">
 
     <div class="menu">
         <a href="#Parcial 1">Parcial 1</a>
@@ -13,10 +13,20 @@
         <a href="#Parcial 3">Parcial 3</a>
         <a href="#Footer">Footer</a>
 
- 
 
 </head>
 <body>
+     <!-- Checkbox oculto que controla la visibilidad -->
+  <input type="checkbox" id="close-cookie">
+
+  <!-- Banner de cookies -->
+  <div class="cookie-banner">
+    <p>Usamos cookies para mejorar tu experiencia. Puedes aceptar o rechazar su uso.</p>
+    <div class="cookie-buttons">
+      <label for="close-cookie" class="cookie-btn accept">Aceptar</label>
+      <label for="close-cookie" class="cookie-btn reject">Rechazar</label>
+    </div>
+  </div>
     
 
     </div>
@@ -312,6 +322,57 @@ En respecto al contenido, no lo habría abarcado desde la visión de una ingenie
 
 </hr>
 
+<h1>Formulario</h1>
+    <section>
+     <form>
+            <input type="text" placeholder="Nombre de chavaaa" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <textarea rows="4" placeholder="Ola aquí se pone tu comentario pero no hace nada jajaj q loco le cabe mucho texto:d" required></textarea>
+            <button type="submit">Piquele pero no hace anda plek</button>
+        </form>
+     </section>
+
+ 
+
+</hr>
+
+<hr>
+
+<h1>Animaciones</h1>
+    <section>
+     <div class="textosanimaciones"><h4>1. Movimiento (translateX)</h4>
+    </div>
+    <div class="contenedor">
+        <div id="caja" class="mover">
+            <img src="img/cougar.png" alt="" width="100px" height="auto">
+        </div>
+    </div>
+ 
+    <h4>2. Escala (scale)</h4>
+    <div class="contenedor">
+        <div id="caja" class="escalar">
+            <img src="img/cougar.png" alt="" width="100px" height="auto">
+        </div>
+    </div>
+ 
+    <h4>3. Rotación (rotate)</h4>
+    <div class="contenedor">
+        <div id="caja" class="rotar">
+            <img src="img/cougar.png" alt="" width="100px" height="auto">
+        </div>
+    </div>
+ 
+    <h4>4. Cambio de Color (background-color)</h4>
+    <div class="contenedor">
+        <div id="caja" class="color">
+            <img src="img/cougar.png" alt="" width="100px" height="auto">
+        </div>
+    </div>
+     </section>
+
+</hr>
+
+
 
 
 
@@ -326,4 +387,3 @@ En respecto al contenido, no lo habría abarcado desde la visión de una ingenie
 
 </body>
 </html>
-
