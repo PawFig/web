@@ -15,10 +15,14 @@ hr {/* Linea separadora */
             padding: 10px; /*margenes interiores*/
         }
 body{
-    background-color: rgb(158, 236, 255);
+    
     height: 100vh; /*viewpoint height*/
     width: 100vw; /*viewpoint width 100 completo*/
     margin: 0; 
+   background-color: #ef93ad;
+    opacity: 1;
+    background-image:  linear-gradient(#9EECFF 1.1px, transparent 1.1px), linear-gradient(to right, #9EECFF 1.1px, #ef93ad 1.1px);
+    background-size: 22px 22px;
   
 }
         header{
@@ -101,23 +105,86 @@ p{
 }
 
 .menu{
-            padding: 20px;
-            position: fixed;
             top: 0;
             overflow: hidden;
-            background-color: rgb(255, 126, 126);
             text-align: center;
-            border: 8px dotted #ffffff;
             width: 100vw;
+            position: fixed;
+            height: 120px;
+            margin-bottom: -150px;
         }
         a{
             text-decoration: none;
             color: white;
-            padding: 14px;
             font-size: 17px;
             font-family: "Poppins", sans-serif;
              font-weight: bolder;
         }
+
+    ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(255, 126, 126);
+    text-align: center;
+    height: 200px;
+    border: 8px dotted #ffffff;
+    }
+ 
+        li {
+            float: left;
+        }
+ 
+        .opcion {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+        }
+ 
+        .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+        }
+ 
+        .dropdown {
+            display: inline-block;
+        }
+ 
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+ 
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+ 
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+ 
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+ 
+        .final{
+            height: 900px;
+            width: 800px;
+            background-color: aquamarine;
+        }
+
 
         .titulopag{
             padding-top: 60px;
@@ -392,7 +459,7 @@ p{
       text-align: center;
       padding: 20px;
       box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
-      z-index: 1000;
+      z-index: 3;
     }
 
     .cookie-banner p {
@@ -436,3 +503,65 @@ p{
     #close-cookie {
       display: none;
     }
+
+    
+
+        .blursinefecto{
+    background-color: rgb(255, 126, 126);
+    color: white; 
+    padding: 20px;
+    text-align: center; 
+    font-family: "Poppins", sans-serif;
+    font-style: bold;
+    border-radius: 5px; 
+        }
+        
+        .contrastsinefecto{
+    background-color: rgb(255, 126, 126);
+    color: white; 
+    padding: 20px;
+    text-align: center; 
+    font-family: "Poppins", sans-serif;
+    font-style: bold;
+    border-radius: 5px; 
+        }
+        
+        .brightnesssinefecto{
+    background-color: rgb(255, 126, 126);
+    color: white; 
+    padding: 20px;
+    text-align: center; 
+    font-family: "Poppins", sans-serif;
+    font-style: bold;
+    border-radius: 5px; 
+        }
+
+        .blur{
+            filter: blur(6px);
+        }
+
+        .contrast{
+            filter: contrast(50%);
+        }
+
+        .brightness{
+            filter: brightness(50%);
+        }
+
+        svg{
+            fill: #369ef4;
+        }
+
+        .parallax{
+            background-image: url(https://garajedelrock.com/wp-content/uploads/2021/10/gerard-way-my-chemical-romance-welcome-to-the-black-parade-1024x555.jpg);
+            height: 900px;
+            width: 1200px;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: 80px;
+        }
+
+
+        
+        
